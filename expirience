@@ -1,0 +1,12 @@
+def function_X():
+    # Do something and return a value
+    return 10
+
+def function_Y(value):
+    # Do something with the value received from function_X
+    result = value * 2
+    print("Result:", result)
+
+# Call function_X and send its output to function_Y
+output_of_X = function_X()
+function_Y(output_of_X)
